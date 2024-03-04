@@ -17,6 +17,8 @@ The aim is to have as simpliest possible init way in order to expose on both pla
 
 # Basic working range:
 Without external antennas, its normally approximately **10 meters**, the distance may vary depending of how much radio interference you may have between devices.
+Sometimes if you increase discovery time in MAUI you can fetch devices even from greater distance, maybe +-20 meters is a maximum limit without additional antennas.
+If you need more range that that, probably its better to consider LoRa instead.
 
 # Usage Sample
 
