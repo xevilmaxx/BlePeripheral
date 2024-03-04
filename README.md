@@ -8,6 +8,16 @@ The aim is to have as simpliest possible init way in order to expose on both pla
  - which derives from:
 	 - https://github.com/phylomeno/dotnet-ble-server
 
+# GATT Features Support:
+| Is Supported | Characteristic Type |
+|--|--|
+| V | Read |
+| V | Write |
+| X | Subscribe / Notify |
+
+# Basic working range:
+Without external antennas, its normally approximately **10 meters**, the distance may vary depending of how much radio interference you may have between devices.
+
 # Usage Sample
 
 **Basic Struct:**
