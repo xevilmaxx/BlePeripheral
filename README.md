@@ -2,6 +2,12 @@
 Its an attempt to create a simple cross-platform library which works on Windows/Linux without necessity of creating special types of projects.
 The aim is to have as simpliest possible init way in order to expose on both platforms GATT Service and Read/Write characteristics.
 
+# Derived From:
+
+ - https://github.com/exendahal/dotnet_bluez_server
+ - which derives from:
+	 - https://github.com/phylomeno/dotnet-ble-server
+
 # Usage Sample
 
 **Basic Struct:**
