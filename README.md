@@ -26,7 +26,7 @@ Without external antennas, its normally approximately **10 meters**, the distanc
     .BuildTestV3_ExternalActions(
         (data) =>
         {
-            Console.WriteLine("ììììì ----->" + Encoding.ASCII.GetString(data));
+            Console.WriteLine("Written Data to us ----->" + Encoding.ASCII.GetString(data));
         },
         () =>
         {
