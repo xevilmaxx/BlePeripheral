@@ -1,0 +1,21 @@
+How to change Bluetooth adapter discovered name:
+On Windows by defualt at least from code its not possible todo!
+
+From windows serttings, atleast on Windows11 you can do:
+
+1. Open Control Panel
+2. View devices and printers
+3. View More Devices (Settings -> Bluetooth & Devices -> Devices)
+4. More Bluetooth Settings (in the bottom)
+5. Go to Hardware Tab
+6. One of the adapters will have Advanced Tab, with device name (in my case its: Intel(R) Wireless Bluetooth(R))
+7. So double click it
+8. In Tab: General click Change Settings
+9. Go To Advanced Tab
+10. Alter Name
+11. Save
+12. Reboot PC (simple reboot of service/reset of bluettoth doesnt seem to work)
+
+Naming is really important becouse it will be used in order to discover the device later.
+
+You would think that you can use Bluetooth MAC in order to identify the device, yet on each service publishing MAC typically changes!

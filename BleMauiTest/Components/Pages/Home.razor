@@ -1,0 +1,29 @@
+﻿@page "/"
+
+<h1>Hello, world!</h1>
+
+Welcome to your new app.
+
+<button class="btn btn-primary" @onclick="BeginDiscovery">Begin Discovery</button>
+
+<hr/>
+
+<button class="btn btn-primary" @onclick="SendHello">Try Connect the nearest</button>
+
+<p>@Result</p>
+
+@foreach(var advTag in AdvertisementTags)
+{
+    <p>
+        @advTag.ToString()
+    </p>
+}
+
+<ul>
+    @foreach(var dev in DiscoveredDevices.OrderByDescending(x => x.Rssi))
+    {
+        <li>
+            @(dev.Id + " <NAME> " + dev.Name + " <RSSI> " + dev.Rssi)
+        </li>
+    }
+</ul>

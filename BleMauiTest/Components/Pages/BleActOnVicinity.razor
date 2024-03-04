@@ -1,0 +1,63 @@
+﻿@page "/bleactonvicinity"
+
+<button class="btn btn-primary" @onclick="BeginDiscovery">Begin Discovery</button>
+
+<button class="btn btn-primary" @onclick="StopDiscovery">Stop Discovery</button>
+
+<hr />
+
+<button class="btn btn-primary" @onclick="SendHello">Click me</button>
+
+<hr />
+
+Is can send OpenBar cmd:
+<InputCheckbox @bind-Value="IsCanSendOpenBar" />
+
+<hr />
+
+Is can send Code:
+<InputCheckbox @bind-Value="IsCanSendCode" />
+
+<InputText @bind-Value="CustomCode" />
+
+<hr />
+
+Discovery Timeout:
+<InputNumber @bind-Value="adapter.ScanTimeout" />
+
+<hr />
+
+Timeout Before Next Call:
+<InputNumber @bind-Value="TimeoutBeforeNextCall.Interval" />
+
+<hr />
+
+Timeout Before Next Scan:
+<InputNumber @bind-Value="TimeoutBeforeNextScan" />
+
+<hr />
+
+Minimum Allowed RSSI: 
+<InputNumber @bind-Value="MinimumAllowedRssi" />
+
+<hr />
+
+<p>@Result</p>
+
+<p>@OpenBarReadResult</p>
+
+@foreach (var advTag in AdvertisementTags)
+{
+    <p>
+        @advTag.ToString()
+    </p>
+}
+
+<ul>
+    @foreach (var dev in GuiDisplayNearBleDevices())
+    {
+        <li>
+            @(dev.Id + " <NAME> " + dev.Name + " <RSSI> " + dev.Rssi)
+        </li>
+    }
+</ul>

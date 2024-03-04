@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34622.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibBlePeripheral", "LibBlePeripheral\LibBlePeripheral.csproj", "{200E30ED-CAE9-4C28-BA4D-2A143A7D64AD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlePeripheralConsole", "BlePeripheralConsole\BlePeripheralConsole.csproj", "{4543D934-2094-4307-8289-EDACDC0E3FF9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BleMauiTest", "BleMauiTest\BleMauiTest.csproj", "{A397A594-888B-43F7-ACFC-5064AE68BF1C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{200E30ED-CAE9-4C28-BA4D-2A143A7D64AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{200E30ED-CAE9-4C28-BA4D-2A143A7D64AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{200E30ED-CAE9-4C28-BA4D-2A143A7D64AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{200E30ED-CAE9-4C28-BA4D-2A143A7D64AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4543D934-2094-4307-8289-EDACDC0E3FF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4543D934-2094-4307-8289-EDACDC0E3FF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4543D934-2094-4307-8289-EDACDC0E3FF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4543D934-2094-4307-8289-EDACDC0E3FF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A397A594-888B-43F7-ACFC-5064AE68BF1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A397A594-888B-43F7-ACFC-5064AE68BF1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A397A594-888B-43F7-ACFC-5064AE68BF1C}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{A397A594-888B-43F7-ACFC-5064AE68BF1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A397A594-888B-43F7-ACFC-5064AE68BF1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A397A594-888B-43F7-ACFC-5064AE68BF1C}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1F3DB905-08B8-41C8-8D1D-E2315C08709E}
+	EndGlobalSection
+EndGlobal
