@@ -30,7 +30,6 @@ Without external antennas, its normally approximately **10 meters**, the distanc
         },
         () =>
         {
-            //var result = CoreLiteGate.OpenForwardBar(new IPC.SHARED.NoArgs() { });
             return Encoding.ASCII.GetBytes($"okkkkkk");
         }
     );
