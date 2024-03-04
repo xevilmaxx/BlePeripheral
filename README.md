@@ -80,8 +80,11 @@ Without external antennas, its normally approximately **10 meters**, the distanc
                                 Flags = new List<MaxCharactPropType>() { MaxCharactPropType.Read },
                                 OnReadCaptured = () =>
                                 {
+				    //return random number as string
                                     return Encoding.ASCII.GetBytes(new Random().Next().ToString());
-                                    //return ChangableData;
+				    
+                                    //this may be your personal local variable
+				    //return ChangableData;
                                 },
                             }
                         }
@@ -116,7 +119,7 @@ You can attach something to execute (lambda [which may use your local variables]
 		 - You need set it manually from windows settings (guide is provided in Notes.txt under LibBlePeripheral/WindowsBleServer )
 
 # Trick used to make Windows work in normal ConsoleApp:
-Extracted DLLs from nuget package: **Microsoft.Windows.SDK.NET.Ref**, and referenced the oldes version to gain as much compatibility as possible.
+Extracted DLLs from nuget package: **Microsoft.Windows.SDK.NET.Ref**, and referenced the oldest version to gain as much compatibility as possible.
 You are free to change the SDK reference version, just add reference to different local DLLs which are already included in LibBlePeripheral project.
 
 
