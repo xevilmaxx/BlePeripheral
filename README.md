@@ -127,7 +127,7 @@ You are free to change the SDK reference version, just add reference to differen
 
 # Tested On:
 
- - **Windows 11**
+ - **Windows 11** (Should work fine starting from: Windows 10 build 17763)
  - **Raspberry 3B+** (which means it should work without problems on **RPI 4**)
 	 - Basically will work on any linux that supports:
 		 - **BlueZ**
