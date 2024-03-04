@@ -106,7 +106,7 @@ Without external antennas, its normally approximately **10 meters**, the distanc
                 }
             };
 
-You can attach something to execute (labda [which may use your local variables]) when someone tries to **Write** certain characteristic and you can define dynamic data to return in case of **Read** is received.
+You can attach something to execute (lambda [which may use your local variables]) when someone tries to **Write** certain characteristic and you can define dynamic data to return in case of **Read** is received.
 
 # Platfrom Notes:
 
